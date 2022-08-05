@@ -354,9 +354,15 @@ section{
 
 
 .gallery .box-container .box #pic1{
-    height: 150%;
+    height: 190%;
     width: 100%;
 }
+
+.gallery .box-container .box #pic3{
+    height: 100%;
+    width: 100%;
+}
+
 
 
 
@@ -800,156 +806,6 @@ section{
 
 
 
-
-/* Theme Styling */
-
-
-/* .theme-toggler{ 
-    position: fixed;
-    top:10rem; right:-20rem;
-    background: #333;
-    z-index: 1000;
-    width: 20rem;
-    text-align: center;
-    
-    border-radius: 2rem;
-}
-
-.theme-toggler.active{
-    right:0;
-}
-
-.theme-toggler h3{
-    color:#fff;
-    padding:1rem 0;
-    font-size: 2rem;
-}
-
-.theme-toggler .buttons{
-    display: flex;
-    justify-content:center;
-    flex-wrap: wrap;
-    gap:1rem;
-    padding:1rem;
-}
-
-.theme-toggler .buttons .theme-btn{
-    height: 5rem;
-    width: 5rem;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.theme-toggler .toggle-btn{
-    position: absolute;
-    top:0; left:-5.9rem;
-    padding:1.3rem 1.5rem;
-    background:#333;
-    cursor: pointer;
-    border-radius: 2rem;
-}
-
-.theme-toggler .toggle-btn i{
-    color:#fff;
-    font-size: 3rem;
-    animation: spin 4s linear infinite;
-}
-
-@keyframes spin {
-    0%{
-        transform: rotate(360deg);
-    }
-}
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media Queries */
-
-@media (max-width:991px){
-    html{
-        font-size: 55%;
-    }
-
-    .header{
-        padding: 1.5rem 2rem;
-
-    }
-
-    section{
-        padding: 2rem;
-    }
-    
-
-
-
-
-
-
-
-/* Services Styling */
-
-/* .service .box-container .box{
-    border-radius: .5rem;
-    background:#333;
-    text-align: center;
-    padding:2.5rem;
-    width:25rem;
-    height: 35rem;
-} */
-
-
-/* Self Made Corrections */
-
-/* .service .invitation{
-    position: absolute;
-    margin-left: 25%;
-    margin-top: -40rem;
-}
-
-
-
-.service .entertainment{
-    position: absolute;
-    margin-left: 50%;
-    margin-top: -40rem;
-}
-
-
-.service .photosvid{
-    position: absolute;
-    margin-left: 75%;
-    margin-top: -80rem;
-}
-
-.service{
-    position: relative;
-} */
-
-
     
 
 
@@ -957,6 +813,10 @@ section{
 
 
 @media (max-width:768px){
+    html,body{
+        overflow-x: hidden;
+
+    }
     #menu-bars{
         display: initial;
     }
@@ -1004,8 +864,15 @@ section{
         gap: 1.5rem;
     }
 
+    .gallery .box-container .box #pic2{
+        height: 140%;
+        width: 100%;
+    }
 
-
+    .gallery .box-container .box #pic4{
+        height: 230%;
+        width: 100%;
+    }
 
     
 }
@@ -1027,60 +894,7 @@ section{
     }
     
 
-    /* Services Styling */
-
-/* .service .box-container .box{
-    border-radius: .5rem;
-    background:#333;
-    text-align: center;
-    padding:2.5rem;
-    width:30rem;
-    height: 35rem;
-} */
-
-
-
-
-
-/* Self Made Corrections */
-
-
-/* .service .venueselec{
-    position: absolute;
-    margin-left: 20%;
-}
-
-
-.service .invitation{
-    position: absolute;
-    margin-left: 20%;
-    margin-top: 45rem;
-}
-
-
-
-.service .entertainment{
-    position: absolute;
-    margin-left: 20%;
-    margin-top: 90rem;
-}
-
-
-
-.service .fooddrink{
-    position: absolute;
-    margin-left: 20%;
-    margin-top: 135rem;
-}
-
-
-.service .photosvid{
-    position: relative;
-    margin-left: 20%;
-    margin-top: 180rem;
-}
-  */
-
+    
 
 
 .shows_box{ 
@@ -1100,7 +914,6 @@ section{
     height: 100%;
     margin-left: 3%;
     margin-top: -60%;
-    
     border-radius: 20px;
     object-fit: contain;
 }
@@ -1111,7 +924,7 @@ section{
     height: 80%;
     object-fit: contain;
     margin-left: 1%;
-    margin-top: 100%;
+    margin-top: 90%;
     border-radius: 20px;
 }
 
@@ -1142,4 +955,4 @@ section{
 }
 
 
-}
+
