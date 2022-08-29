@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,7 @@
     <!-- Font Awesome cdn Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 
     <link rel="stylesheet" href="index.css">
@@ -33,6 +34,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 
 
+
+
+
+
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_7DzWBQRvgexH8izCeWMgP");
+        })();
+    </script>
+
+
+
+
+
+
 </head>
 
 <body>
@@ -41,7 +63,11 @@
 
     <header class="header">
 
-        <a href="#" class="logo"><span>E</span>vent</a>
+        <a href="#" class="logo"><span>A</span>nchor Shreyata </a>
+
+
+
+
 
         <nav class="navbar">
             <a href="#home">Home</a>
@@ -56,6 +82,8 @@
 
 
         <div id="menu-bars" class="fas fa-bars"></div>
+        <!-- <div id="menu-bars"  class="fa-solid fa-plus"></div> -->
+
     </header>
 
 
@@ -70,12 +98,12 @@
 
         <div class="cinema">
             <video autoplay muted loop>
-                <source src="Cinmeograph.mp4" type="video/mp4">
+                <source src="vid7.mp4" type="video/mp4">
             </video>
         </div>
 
         <div class="content">
-            <h3>It's Time To Celebrate! The Best <span>Event Organizers</span></h3>
+            <h3>Anchor <span>Shreyata Kulkarni</span></h3>
 
             <a href="#contact" class="btn">Book Now</a>
         </div>
@@ -95,25 +123,33 @@
 
     <section class="about" id="about">
 
-        <h1 class="heading"><span>about</span> me </h1>
+        <h1 class="heading" data-aos="fade-in" data-aos-duration="1000"><span>about</span> me </h1>
 
         <div class="row">
             <div class="image">
 
-                <img src="slide5.jpg" alt="">
+                <img src="aboutpic.jpeg" alt="">
 
             </div>
 
-            <div class="content">
+            <div class="content" data-aos="fade" data-aos-once="true" data-aos-duration="2000">
 
 
                 <div class="home-content">
 
-                    <div class="text-3"><h3>I'm a <span class="typing"></span></h3></div>
+                    <div class="text-3">
+                        <h3>I'm a <span> Host</span></h3>
+                    </div>
+
+
+                    <div class="text-2">
+                        <h3>I'm a <span class="typing"></span></h3>
+                    </div>
                 </div>
 
 
-                <p>I am the Enthusiastic, energetic and full power anchor best in Pune. I had worked with many leading
+                <p>I am the Enthusiastic, energetic and full power <mark> anchor best in Pune.</mark> I had worked with
+                    many leading
                     brands and event management companies in Pune.
 
                     I have hosted all the types of events including Sangeet Ceremonies, Big Fat Weddings, Corporate
@@ -157,14 +193,14 @@
 
     <section class="gallery" id="gallery">
 
-        <h1 class="heading">Our <span>Gallery</span></h1>
+        <h1 class="heading" data-aos="fade-in" data-aos-duration="1000">Our <span>Gallery</span></h1>
 
         <div class="box-container">
 
-            <div class="box">
+            <div class="box" data-aos="zoom-out" data-aos-once="true" data-aos-duration="1000">
 
                 <img id="pic1" src="pic1.jpeg" alt="">
-          
+
             </div>
 
 
@@ -172,14 +208,14 @@
 
             <div class="box-container">
 
-                <div class="box">
+                <div class="box" data-aos="zoom-out" data-aos-once="true" data-aos-duration="1000">
                     <img id="pic2" src="pic2.jpeg" alt="">
                 </div>
 
             </div>
 
             <div class="box-container">
-                <div class="box">
+                <div class="box" data-aos="zoom-out" data-aos-once="true" data-aos-duration="1000">
                     <img id="pic3" src="pic3.jpeg" alt="">
                 </div>
             </div>
@@ -187,7 +223,7 @@
 
 
             <div class="box-container">
-                <div class="box">
+                <div class="box" data-aos="zoom-out" data-aos-once="true" data-aos-duration="1000">
                     <img id="pic4" src="pic4.jpeg" alt="">
                 </div>
             </div>
@@ -197,9 +233,9 @@
             <div class="box-container">
 
 
-                <div class="box">
+                <div class="box" data-aos="zoom-out" data-aos-once="true" data-aos-duration="1000">
                     <img src="pic5.jpeg" alt="">
-               
+
                 </div>
 
             </div>
@@ -208,9 +244,9 @@
 
             <div class="box-container">
 
-                <div class="box">
+                <div class="box" data-aos="zoom-out" data-aos-once="true" data-aos-duration="1000">
                     <img src="pic6.jpeg" alt="">
-                  
+
                 </div>
             </div>
 
@@ -220,9 +256,9 @@
 
             <div class="box-container">
 
-                <div class="box">
+                <div class="box" data-aos="zoom-out" data-aos-once="true" data-aos-duration="1000">
                     <img src="pic7.jpeg" alt="">
-                 
+
                 </div>
             </div>
 
@@ -235,9 +271,9 @@
             <div class="box-container">
 
 
-                <div class="box">
+                <div class="box" data-aos="zoom-out" data-aos-duration="1000">
                     <img src="pic8.jpeg" alt="">
-                
+
                 </div>
             </div>
 
@@ -262,27 +298,26 @@
 
     <section class="performed" id="performed">
 
-        <h1 class="heading">Shows Performed / <span>Experience</span></h1>
-
+        <h1 class="heading" data-aos="fade-in" data-aos-duration="1000">Shows Performed / <span>Experience</span></h1>
 
 
         <div>
 
-            <img class="shows_box" src="performed1.jpeg" alt="">
+            <img class="shows_box" data-aos="fade-in" data-aos-duration="2000" src="performed1.jpeg" alt="">
 
         </div>
 
 
         <div>
-            <img id="show1" src="performed2.jpeg" alt="">
+            <img id="show1" data-aos="fade-in" data-aos-duration="2000" src="performed2.jpeg" alt="">
         </div>
 
         <div>
-            <img id="show2" src="performed3.jpeg" alt="">
+            <img id="show2" data-aos="fade-in" data-aos-duration="2000" src="performed3.jpeg" alt="">
         </div>
 
         <div>
-            <img class="shows_box" id="#show3" src="Award.jpeg" alt="">
+            <img id="show3" data-aos="fade-in" data-aos-duration="2000" src="Award.jpeg" alt="">
         </div>
 
 
@@ -304,7 +339,7 @@
     <!-- Review Section Starts -->
     <section class="review" id="review">
 
-        <h1 class="heading">Client's <span>Review</span></h1>
+        <h1 class="heading" data-aos="fade-in" data-aos-duration="1000">Client's <span>Review</span></h1>
 
 
         <div class="swiper mySwiper home-slider">
@@ -350,33 +385,39 @@
     <!-- Contact Section Starts -->
 
     <section class="contact" id="contact">
-        <h1 class="heading"><span>Contact</span> Me</h1>
+        <h1 class="heading" data-aos="fade-in" data-aos-duration="1000"><span>Contact</span> Me</h1>
 
-        <form action="index.php" method="post">
+
+        <form>
             <div class="inputBox">
                 <input type="text" placeholder="name" id="name" name="name">
-                <input type="email" placeholder="Email" id="email" name="email">
+                <input type="email" placeholder="Your Email" id="subject" name="email">
+
 
             </div>
 
-
-
-            <div class="inputBox">
-                <input type="text" placeholder="subject" id="subject" name="subject">
-
-            </div>
 
 
             <textarea name="msg" placeholder="Your Message" id="msg" cols="30" rows="10"></textarea>
 
-            <input type="submit" value="Send Message" class="btn">
-
-
-
-
-
+            <input type="button" onclick="sendmail()" id="btn" value="Send Message" class="btn">
 
         </form>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+        <script src="https://smtpjs.com/v3/smtp.js">
+        </script>
+
+
+
+        <script>
+
+            import swal from 'sweetalert';
+        </script>
+
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     </section>
     <!-- Contact Section Ends -->
 
@@ -415,10 +456,14 @@
                 <h3>Contact Info</h3>
                 <a href="tel:+91 9404256408"><i class="fas fa-phone"></i> +91 9404256408</a>
 
-                <a href="https://web.whatsapp.com/send?phone=+919404256408" id="whatsapp" target="_blank"> <i class="fa"
-                        id="whatsappi">&#xf232;</i> +91 9404256408</a>
+                <a href="whatsapp://send?phone=9404256408" id="whatsapp"><i class="fa" id="whatsappi">&#xf232;</i> +91
+                    9404256408</a>
 
-                <a href="mailto:Shreya.kulkarni70@gmail.com"><i class="fas fa-envelope"></i> Shreya.kulkarni70@gmail.com </a>
+                <!-- <a href="https://web.whatsapp.com/send?phone=+919404256408" id="whatsapp" target="_blank"> <i class="fa"
+                        id="whatsappi">&#xf232;</i> +91 9404256408</a> -->
+
+                <a href="mailto:Shreya.kulkarni70@gmail.com"><i class="fas fa-envelope"></i> Shreya.kulkarni70@gmail.com
+                </a>
                 <a href="#"><i class="fas fa-map-marker-alt"></i> Pune, India </a>
             </div>
 

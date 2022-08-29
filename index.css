@@ -24,6 +24,10 @@ html{
     scroll-behavior: smooth;
 }
 
+mark
+{
+    background-color: #bbb;
+}
 html::-webkit-scrollbar{
     width: 1rem;
 }
@@ -95,6 +99,26 @@ section{
 /* Header Styling Starts */
 
 
+.headingname{
+    position: absolute;
+    font-size: 20px;
+    margin-left: -27%;
+    margin-top: 15px;
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.headingname span{
+    color: var(--main-color);
+
+}
+
+
+
+
+
 .header{
     position: fixed;
     top: 0;
@@ -105,7 +129,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 9%;
+    padding: 1.9rem 9%;
 }
 
 .header .logo{
@@ -146,7 +170,7 @@ section{
     text-align: center;
     padding-top: 6rem;
     margin: 2rem auto;
-    max-width: 70rem;
+    max-width: 60rem;
 }
 
 
@@ -287,7 +311,7 @@ section{
 .about .row .content p{
 
     text-align: justify;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: #eee;
     padding: 1rem 0;
     line-height: 1.8;
@@ -304,7 +328,21 @@ section{
     margin: 5px 0;
 }
 
-.content .home-content .text-3 span
+.content .home-content .text-2{
+    font-size: 0.5rem;
+    color: #fff;  
+    font-size: 10px;
+    margin: 5px 0;
+
+}
+
+.content .home-content .typing{
+    font-size: 3rem;
+}
+
+
+
+.content .home-content .text-3 span, .text-2 span
 {
     
    color: var(--main-color);
@@ -481,6 +519,16 @@ section{
     border-radius: 20px;
 }
 
+#show3{
+    margin-top: 10px;
+    margin-bottom: 5rem;
+    width: 400px;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-left: 37%;
+}
+
 
 
 
@@ -633,58 +681,6 @@ section{
 
 
 
-/* Review Styling */
-
-.review .box{
-    border-radius: .5rem;
-    background: #333;
-    padding: 2rem;
-    position: relative;
-}
-
-.review .box .fa-quote-right{
-    position: absolute;
-    top: 2rem; right: 2rem;
-    color: var(--main-color);
-    font-size: 5rem;
-}
-
-
-.review .box .user{
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    padding-bottom: 1rem;
-}
-
-.review .box .user img{
-    height: 7rem;
-    width: 7rem;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-
-.review .box .user h3{
-    font-size: 2rem;
-    color: #fff;
-
-}
-
-
-.review .box .user span{
-    font-size: 1.5rem;
-    color: #eee;
-}
-
-
-.review .box p{
-    line-height: 2;
-    color: #eee;
-    padding: .5rem 0;
-    font-size: 1.6rem;
-}
-
 
 
 
@@ -694,21 +690,21 @@ section{
     margin-top: 30px;
 }
 
-.contact form{
+.contact{
     max-width: 70rem;
     margin: 1rem auto;
     text-align: center;
 }
 
 
-.contact form .inputBox{
+.contact .inputBox{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.contact form .inputBox input,
-.contact form textarea{
+.contact .inputBox input,
+.contact textarea{
     width: 100%;
     background: #333;
     border-radius: .5rem;
@@ -721,25 +717,25 @@ section{
 
 
 
-.contact form .inputBox input::placeholder,
-.contact form textarea::placeholder{
+.contact .inputBox input::placeholder,
+.contact textarea::placeholder{
     color: #eee;
     text-transform: capitalize;
 }
 
 
-.contact form .inputBox input:focus,
-.contact form textarea:focus{
+.contact .inputBox input:focus,
+.contact textarea:focus{
    background: #444;
 }
 
 
-.contact form .inputBox input{
+.contact .inputBox input{
     width: 49%;
 }
 
 
-.contact form textarea{
+.contact textarea{
     resize: none;
 }
 
@@ -801,7 +797,15 @@ section{
 
 
 
-
+.swal-text {
+    background-color: #FEFAE3;
+    padding: 17px;
+    border: 1px solid #F0E1A1;
+    display: block;
+    margin: 22px;
+    text-align: center;
+    color: #61534e;
+  }
 
 
 
@@ -831,6 +835,10 @@ section{
 
     .header .navbar.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .fa-plus{
+        transform: rotate(45deg);
     }
 
     .fa-times{
@@ -874,6 +882,37 @@ section{
         width: 100%;
     }
 
+
+    #show1{
+        position: relative;
+        width: 60%;
+        height: 30%;
+        margin-left: 1px;
+        margin-top: 10%;
+        border-radius: 20px;
+        object-fit: contain;
+    }
+    
+    #show2{
+        position: relative;
+        width: 300px;
+        height: 80%;
+        object-fit: contain;
+        margin-left: 1%;
+        margin-top: 10%;
+        border-radius: 20px;
+    }
+    
+    #show3{
+        position: relative;
+        width: 300px;
+        height: 80%;
+        object-fit: contain;
+        margin-left: 1%;
+        margin-top: 10%;
+        border-radius: 20px;
+    }
+
     
 }
 
@@ -913,7 +952,7 @@ section{
     width: 80%;
     height: 100%;
     margin-left: 3%;
-    margin-top: -60%;
+    margin-top: -50%;
     border-radius: 20px;
     object-fit: contain;
 }
@@ -924,7 +963,17 @@ section{
     height: 80%;
     object-fit: contain;
     margin-left: 1%;
-    margin-top: 90%;
+    margin-top: 110%;
+    border-radius: 20px;
+}
+
+#show3{
+    position: relative;
+    width: 300px;
+    height: 80%;
+    object-fit: contain;
+    margin-left: 1%;
+    margin-top: 10%;
     border-radius: 20px;
 }
 
